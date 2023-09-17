@@ -1,0 +1,281 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(moana11.jpg);
+    
+}
+.body img{
+    width: 100%;
+    height: 500px; 
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+header{
+    background-image: url('moana2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    text-align: center;
+    height: 620%;  
+    width: 88.15%; 
+}
+
+
+#profile {
+    text-align: center;
+    padding: 20px;
+}
+
+#profile img{
+        border-radius: 180px;
+        width: 27%;
+        border: 24px solid #1d4122;
+        transition: transform .2s; 
+ }
+
+#profile img:hover{
+    transform: scale(1.1);
+    cursor: pointer; 
+ }
+
+#profile h1{
+        font-family: 'Ceviche One', cursive;
+        font-family: 'Fontdiner Swanky', cursive;
+        font-family: 'Henny Penny', cursive;
+        font-size: 490%;
+        color: #2f6937;
+}
+
+p{
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Sriracha', cursive;
+    font-size: 140%;
+    margin: auto;
+    forced-color-adjust: rgb(37, 37, 37);
+}
+
+h2{
+    font-family: 'Henny Penny', cursive, monospace;
+    font-size:100%;
+    position: center;
+    color: #04555c;
+    }
+
+ h5{
+        font-family: 'Henny Penny', cursive, monospace;
+        text-align: center;
+        font-size:300%;
+        position: center;
+        color: #8aa70b;
+        }
+
+main {
+    max-width: 73%;
+    height: 1130%;
+    margin: 40px;
+    padding: 30px ;
+    background-image: linear-gradient(to bottom right, rgb(70, 107, 114), rgb(202, 82, 12), #d69265);
+    border: 1px solid rgba(160, 159, 159, 0.46); 
+    border-radius: 20px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+    outline: px solid var(--background);
+    overflow:hidden;
+    top: 0;
+    left: 120px;
+    transition: top ease 0.5s;
+    position: relative;
+}
+
+main:hover {
+    cursor: pointer;
+    top:-20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 220%;
+    color: #9fc00b;
+    text-align: center;
+}
+
+.image-container {
+    display: inline-block; 
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    width: 13%; 
+    margin-right: 20px; 
+    margin-left: 20px;
+    padding:90px;
+    transition: transform .3s; 
+    
+}
+.image-container:hover{
+    transform: scale(1.1);
+}
+
+.image-container:last-child {
+    margin-right: 0;
+}
+
+.image-container img {
+    width: 180%; 
+    height: 50%;
+    border-radius: 15%;
+    position: relative;
+}
+
+
+/* Style the links and images */
+.image-link {
+    text-decoration: none;
+}
+
+.image {
+    max-width: 200%; 
+    height: 100%; 
+    margin: 50%; 
+}
+
+p.caption{
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Sriracha', cursive;
+    font-size: 120%;
+    color: rgb(155, 154, 135);
+
+    
+    }
+
+li{
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Sriracha', cursive;
+    size: 100%;
+    forced-color-adjust: rgb(37, 37, 37);
+}
+a{
+    color: #95a504;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+
+ul{
+    font-family: 'Ceviche One', cursive;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Sriracha', cursive;
+    font-size: 130%;
+    margin: auto;
+    forced-color-adjust: rgb(37, 37, 37);
+}
+
+footer{
+    margin-top: 5%;
+    padding: 2% 2%;
+    background-image: linear-gradient(to bottom right, rgb(70, 107, 114), rgb(202, 82, 12), #d69265);
+    }
+    footer ul{
+    text-align: center;
+    }
+    footer ul li{
+    color: rgb(37, 37, 37);
+    display: inline-block;
+    margin: 0 5px;
+    }
+
+
+
+/*Tablet */
+@media (max-width: 768px) {
+
+.navbar-mobile { display: none;}
+}
+
+/*smaller Tablets*/ 
+@media (max-width: 568px) { .navbar-mobile { display: none;}
+}
+
+/* Mobile*/
+ @media (max-width: 328px) {
+    .navbar-mobile {
+        display: block;
+ }
+}
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens up to 768px wide */
+  }
+
+    /************** Start Responsive Header (or) Menu  ******************/
+/******** Start Mobile  Responsive ************/
+@media only screen and (min-width:320px) and (max-width:480px){
+	#nav{ width:375px; background:#F90; position:relative;}
+	#nav ul{list-style:none; padding:0px; }
+	#nav ul li{ width:100%; text-align:center; padding:1px 0px;}	
+	#nav ul li a{ color:#FFF; font-size:12px; padding:0px 0px !important;}
+}
+/******** End Mobile  Responsive ************/
+
+/******** Start Tablets (or) Small screens  Responsive ************/
+@media only screen and (min-width:600px) and (max-width:768px){
+	#nav{ width:768px; background:#09C;}
+	#nav ul{list-style:none; padding:0px; }
+	#nav ul li{text-align:center; padding:5px 0px;}
+	#nav ul li a{ padding:5px 30px 0px; color:#FFF;}
+	}
+/******** End Tablets (or) Small screens  Responsive ************/
+/************** End Responsive Header (or) Menu  ******************/
+@media only screen and (min-width:320px) and (max-width:480px){
+	.content{width:373px;}
+	.content-left{ width:365px; margin:5px 4px 15px; clear:both;}
+	.content-left img{ width:365px;}
+	.content-header{background:#F90; color:#FFF;}
+	.content-right{ width:365px; margin:5px auto; clear:both;}
+	.btn{background:#F90;} .btn:hover{background:#F60;}
+}
+/******** End Mobile  Responsive ************/
+
+/******** Start Tablets (or) Small screens  Responsive ************/
+@media only screen and (min-width:600px) and (max-width:768px){
+	.content{width:766px;}
+	.content-left{ width:240px;}
+	.content-left img{width:240px;}
+	.content-header{background:#09C; color:#FFF;}
+	.content-right{ width:504px;}
+}
+/************** Start Responsive Footer ******************/
+/******** Start Mobile  Responsive ************/
+@media only screen and (min-width:320px) and (max-width:480px){
+	#footer{ width:375px; background:#F90;}
+	#copyrights{color:#FFF;}
+	#copyrights a{ color:#EEE;}
+	#footer ul{ padding:0px 25px;}
+	#footer ul li{ padding:15px 0px 5px; margin:5px 0px 12px;}
+	#footer ul li a{padding:10px 6px; text-align:center; color:#FFF; font-size:9px;}
+}
+/******** End Mobile  Responsive ************/
+
+/******** Start Tablets (or) Small screens  Responsive ************/
+@media only screen and (min-width:600px) and (max-width:768px){
+	#footer{ width:768px; background:#09C;}
+	#copyrights{color:#FFF;}
+	#copyrights a{ color:#EEE;}
+	#footer ul{ padding:0px 60px;}
+	#footer ul li{ padding:15px 0px 5px; margin:5px 0px 12px;}
+	#footer ul li a{padding:10px 30px; text-align:center;}
+}
+/******** End Tablets (or) Small screens  Responsive ************/
+/************** End Responsive Footer  ******************/
